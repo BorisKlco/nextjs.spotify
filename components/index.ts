@@ -1,4 +1,5 @@
 import Box from "./Box";
 import Sidebar from "./Sidebar";
+import SidebarItem from "./SidebarItem";
 
-export { Sidebar, Box };
+export { Sidebar, Box, SidebarItem };

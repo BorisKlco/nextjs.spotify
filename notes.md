@@ -14,3 +14,5 @@
   - dependency pre `useMemo` je zmena v `pathName`
 - Vytvorenie komponentu `Box` ktory je wrapper pre children v `Sidebar` , do ktoreho sa passuju hodnoty `children` a `className`
 - Instalacia tailwind-merge ktory pouzijem v `Box`
+- Do prveho boxu som pridal `routes.map()` ktory za kazdy object v `routes` array vytvori `SidebarItem` komponent
+  - `SidebarItem` returnuje `Link` ktory pouziva spreadnute props z `routes` active status je podmienka ktora je v `className`
