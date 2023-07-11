@@ -20,4 +20,6 @@
 - v `Sidebar` sa nachadzaju dva `Box` kontainery, v prvom sa nachadzaju `Link` a vruhom ktory ma `h-full` sa nachadza komponent `Library`
   - `Library` je `'use client'` komponent, ktory ma viacero fukncii, ako aj uploadovanie.
     - Zaklad je div ktory je `flex-col` , v nom wrapnuty je dalsi `flex` div ktory ma x,y padding a je `justify-between`
-      - Posledny `inline-flex` div drzi obsah, na tope je react-icon `TbPlaylist`
+      - Nasledujuci `inline-flex` div drzi iconu a nadpis.'
+      - Na druhej strane vdaka `justify-beween` sa nachadza react-icon reprezentujuca `+` a `onClick` event `handleUpload`
+    - Pod vytvorenim napdisom pridavam dalsi `flex-col` div ktory ma `margin-top` a `x-padding` bude drzat playlist.
