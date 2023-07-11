@@ -26,3 +26,9 @@
 
 ---
 
+- Vytvoril som `Header` wrapper ktory som pouzil v `page.tsx`, `Header` berie argument `{children}` a `{className}`.
+  - `Header` je client komponent, pouzil som `next/navigation useRouter()` na navigaciu medzi playlistom.
+    - Prvy div wrapper je `h-fit` a vytvoreny gradient a padding nasledne berie argument `className?`
+      - Dalsi `flex justify-between` div ma `w-full`, `margin-button` a obsahuje div pre navigacne buttony.
+        - div wrapper je `hidden` pre mobilne zariadenia a pre `md: flex` ma `x-gap` a centrovane itemy, obsahuje 2 `NavigationButton` komponenty
+          - `NavigationButton` berie 2 props, a to je `react-icon` a `onClick` handler, v tonto pripade `router.forward()` a `router.back()`
