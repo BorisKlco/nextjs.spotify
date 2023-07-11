@@ -16,3 +16,8 @@
 - Instalacia tailwind-merge ktory pouzijem v `Box`
 - Do prveho boxu som pridal `routes.map()` ktory za kazdy object v `routes` array vytvori `SidebarItem` komponent
   - `SidebarItem` returnuje `Link` ktory pouziva spreadnute props z `routes` active status je podmienka ktora je v `className`
+  - Vytvorenie podmienky pre `SidebarItem` Icon , ked sa meni react-icon na zaklade active statusu
+- v `Sidebar` sa nachadzaju dva `Box` kontainery, v prvom sa nachadzaju `Link` a vruhom ktory ma `h-full` sa nachadza komponent `Library`
+  - `Library` je `'use client'` komponent, ktory ma viacero fukncii, ako aj uploadovanie.
+    - Zaklad je div ktory je `flex-col` , v nom wrapnuty je dalsi `flex` div ktory ma x,y padding a je `justify-between`
+      - Posledny `inline-flex` div drzi obsah, na tope je react-icon `TbPlaylist`
