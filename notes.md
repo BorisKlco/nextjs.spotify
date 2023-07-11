@@ -23,3 +23,6 @@
       - Nasledujuci `inline-flex` div drzi iconu a nadpis.'
       - Na druhej strane vdaka `justify-beween` sa nachadza react-icon reprezentujuca `+` a `onClick` event `handleUpload`
     - Pod vytvorenim napdisom pridavam dalsi `flex-col` div ktory ma `margin-top` a `x-padding` bude drzat playlist.
+
+---
+
