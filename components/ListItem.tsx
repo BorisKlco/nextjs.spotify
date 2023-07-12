@@ -34,7 +34,13 @@ const ListItem = ({
     >
       <div className="relative min-h-[64px] min-w-[64px]">
         <Image
-          className="object-cover transition duration-700 group-hover:contrast-125"
+          className="object-cover 
+          transition duration-300
+          brightness-90
+          group-hover:contrast-125
+          group-hover:scale-[1.25] 
+          group-hover:rotate-2
+          group-hover:brightness-100"
           src={image}
           fill
           alt="Album Image"
