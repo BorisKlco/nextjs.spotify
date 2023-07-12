@@ -1,15 +1,24 @@
 import { IconType } from "react-icons";
+import { GoHomeFill } from "react-icons/go";
 
 type NavigationButtonProps = {
-  icon: IconType;
-  handleClick: () => void
+  icon?: IconType;
+  iconSize?: number;
+  classIcon?: string;
+  classButton?: string;
+  handleClick?: () => void;
 };
 
-const NavigationButton = ({ icon: Icon, handleClick }: NavigationButtonProps) => {
+const NavigationButton = ({
+  icon: Icon = GoHomeFill,
+  iconSize = 20,
+  classIcon = "",
+  classButton = "",
+  handleClick,
+}: NavigationButtonProps) => {
   return (
-    <button className="rounded-full bg-black flex items-center justify-center hover:opacity-75 transition" 
-    onClick={handleClick}>
-      <Icon className="text-white" size={35} />
+    <button className={classButton} onClick={handleClick}>
+      <Icon className={classIcon} size={iconSize} />
     </button>
   );
 };

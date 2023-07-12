@@ -31,4 +31,6 @@
     - Prvy div wrapper je `h-fit` a vytvoreny gradient a padding nasledne berie argument `className?`
       - Dalsi `flex justify-between` div ma `w-full`, `margin-button` a obsahuje div pre navigacne buttony.
         - div wrapper je `hidden` pre mobilne zariadenia a pre `md: flex` ma `x-gap` a centrovane itemy, obsahuje 2 `NavigationButton` komponenty
-          - `NavigationButton` berie 2 props, a to je `react-icon` a `onClick` handler, v tonto pripade `router.forward()` a `router.back()`
+          - `NavigationButton` berie 3 props, a to je `react-icon` a `onClick` handler a `className`, v tonto pripade `router.forward()` a `router.back()`
+          - `navigationButton` som upravil tak aby bral argument pre vsetko a zaroven som pridelil kazdemu argumentu default value ak by value nobola poskutnuta, argumenty su `react-icon`, velkost pre iconu, `className` pre iconu a pre button, a `onClick` handler.
+      - pre mobile view je vytvoreny `NavigationButton` ktory ma `GoHome` icon a `BiSearchAlt` nahrazduju navigacne buttony a reprezentuju navigaciu z hidden left navbaru.
