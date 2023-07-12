@@ -38,6 +38,11 @@
       - Pridanie `{children}`
   - Ako `Header` children som vytvoril div wrapper ktory ma bottom margin.
     - Dynamicky nadpis, momentalne drzi text `Welcome back`
-    - Div rozdeleny na `grid` a `grid-cols-` 1,2,3,4 pre sm,xl,2xl 
+    - Div rozdeleny na `grid` a `grid-cols-` 1,2,3,4 pre sm,xl,2xl
       - obsahuje `ListItem` komponent, ktory zatial berie 3 string props, image, name a href.
-        - `ListItem` reprezentuje button ktory ma na lavaje strane img albumu, v strede text name albumu a na pravej strane hover: play button. 
+        - `ListItem` reprezentuje button ktory ma na lavaje strane img albumu, v strede text name albumu a na pravej strane hover: play button.
+- `Header` ✔
+
+---
+
+- Somethong

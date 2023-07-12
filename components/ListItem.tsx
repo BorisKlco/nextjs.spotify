@@ -23,6 +23,7 @@ const ListItem = ({
 
   return (
     <button
+      onClick={handleItemClick}
       className="
       relative group
       flex items-center gap-x-4
@@ -38,7 +39,7 @@ const ListItem = ({
           transition duration-300
           brightness-90
           group-hover:contrast-125
-          group-hover:scale-[1.25] 
+          group-hover:scale-[1.20] 
           group-hover:rotate-2
           group-hover:brightness-100"
           src={image}
