@@ -52,3 +52,8 @@
 - Vytvorenie db vdaka Stripe templatu, pridanie custom tablov ako `songs`, a `liked_songs`
 - Vytvorenie dvoch bucketov pre uploadovanie user profile avataru a songov.
 - Generovanie db types pre _Typescript_
+  - Vytvorenie priecinka `providers`
+    - Vytvorenie subotu `SupabaseProvider.tsx`
+    - Instalacia `@supabase/auth-helpers`
+      - `SupabaseProvider` je content wrapper beziaci client side
+- `SupabaseProvider` som pouzil v `layout.tsx` ako top komponent v `<body>` a wrapol som v nom `{children}`
