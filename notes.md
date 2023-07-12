@@ -34,3 +34,5 @@
           - `NavigationButton` berie 3 props, a to je `react-icon` a `onClick` handler a `className`, v tonto pripade `router.forward()` a `router.back()`
           - `navigationButton` som upravil tak aby bral argument pre vsetko a zaroven som pridelil kazdemu argumentu default value ak by value nobola poskutnuta, argumenty su `react-icon`, velkost pre iconu, `className` pre iconu a pre button, a `onClick` handler.
       - pre mobile view je vytvoreny `NavigationButton` ktory ma `GoHome` icon a `BiSearchAlt` nahrazduju navigacne buttony a reprezentuju navigaciu z hidden left navbaru.
+    - Zatial odlozim vytvorenie custom buttonu pre pravu stranu navigacie reprezentujucu `Sign up` a `Log In`. Pouziva `forwardRef` o ktorom si musim precitat a vidiet ho ako bude pouzity 42:15 timestamp.
+      -Pridanie `{children}`

@@ -53,6 +53,7 @@ const Header = ({ children, className }: HeaderProps) => {
           />
         </div>
       </div>
+      {children}
     </div>
   );
 };
