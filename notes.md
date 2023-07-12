@@ -1,3 +1,5 @@
+## Project init
+
 - Reset globals.css, tailwind.config
 - Pridanie noveho fontu pre layout.tsx, edit metadata
 - Vytvorenie root priecinku pre komponenty
@@ -45,4 +47,8 @@
 
 ---
 
-- Somethong
+## Supabase
+
+- Vytvorenie db vdaka Stripe templatu, pridanie custom tablov ako `songs`, a `liked_songs`
+- Vytvorenie dvoch bucketov pre uploadovanie user profile avataru a songov.
+- Generovanie db types pre _Typescript_
