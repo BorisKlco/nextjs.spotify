@@ -61,3 +61,7 @@
 - custom hook `useUser` ma sluzit na fetchovanie potrebnych udajov pre prihlaseneho uzivatela, ako je `userDetails` a `subscription`
 - Dokoncenie `useUser` dependency pre neho je `user, isLoadingUser` , vytvorenie `useEffect` ktory ma podmienku ze ak aktualny uzivatel neloaduje data, nie su nacitane user details a ani jeho subscription, tak `isLoading` je `true`. a vytvori sa `Promise` na `getUserDetails` a `getSubscription`, inac ak ziadny uzivatel nie je tak userDetails a Subs su `null`
 - `useUser` hook returnuje `UserContext.Provider`
+
+## Login Logic
+
+- `Modal Provider` je use client wrapper , ktory pouziva `useState` a `isMounted` logiku , ak je stranka renderovana server-side , nezobrazuj Modal.
