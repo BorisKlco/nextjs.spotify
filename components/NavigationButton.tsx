@@ -14,7 +14,7 @@ const NavigationButton = ({
   iconSize = 20,
   classIcon = "",
   classButton = "",
-  handleClick,
+  handleClick = () => {},
 }: NavigationButtonProps) => {
   return (
     <button className={classButton} onClick={handleClick}>
