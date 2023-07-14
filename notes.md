@@ -64,4 +64,6 @@
 
 ## Login Logic
 
+- `Modal.tsx` je `RADIX-UI/Dialog` window
 - `Modal Provider` je use client wrapper , ktory pouziva `useState` a `isMounted` logiku , ak je stranka renderovana server-side , nezobrazuj Modal.
+  - `AuthModal` je vytvoreny komponent pre `Modal Provider`, pouziva `supabase-auth-ui` ako registraiu/prihlasenie pre google/github acc

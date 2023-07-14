@@ -2,10 +2,11 @@ import { IconType } from "react-icons";
 import { GoHomeFill } from "react-icons/go";
 
 type NavigationButtonProps = {
-  icon?: IconType;
+  icon?: IconType | string;
   iconSize?: number;
   classIcon?: string;
   classButton?: string;
+  optionalText?: string;
   handleClick?: () => void;
 };
 
@@ -14,11 +15,13 @@ const NavigationButton = ({
   iconSize = 20,
   classIcon = "",
   classButton = "",
+  optionalText = "",
   handleClick = () => {},
 }: NavigationButtonProps) => {
   return (
     <button className={classButton} onClick={handleClick}>
-      <Icon className={classIcon} size={iconSize} />
+      {Icon != "NONE" && <Icon className={classIcon} size={iconSize} />}
+      {optionalText}
     </button>
   );
 };
