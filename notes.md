@@ -72,3 +72,5 @@
 - uprava `Header.tsx` , pridanie SignUp/LogIn buttonu.
 - uprava `NavigationButton` tak aby react-icon nebolo podmienene a pridanie child textu ako `optionalText`
 - Dokoncenie `authModal.onOpen` aby sa otvaral Modal.
+
+- Login/Logout logic je spravena cez `SupabaseClient`, 
