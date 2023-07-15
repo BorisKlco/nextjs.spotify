@@ -7,6 +7,7 @@ import Modal from "./Modal";
 import NavigationButton from "./NavigationButton";
 import Sidebar from "./Sidebar";
 import SidebarItem from "./SidebarItem";
+import UploadModal from "./UploadModal";
 
 export {
   Sidebar,
@@ -18,4 +19,5 @@ export {
   ListItem,
   Modal,
   AuthModal,
+  UploadModal,
 };

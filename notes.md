@@ -78,3 +78,8 @@
 ---
 
 - Notifikacie pre uzivatela su spravene cez `Toast` komponent `react-hot-toast`, je  to selfclosed tag, vytvoril som Provider ktory je ako top element v `body`. Nasledne ho mozel callnut cez `toast.`
+
+## Lib Upload 
+
+- Vytvorenie podmienky v `Library.tsx` po `handleClick` na `AiOutlinePlus` cez AuthProvider, ak neni user prihlaseny, otvori sa AuthMadol
+- Vytvorenie UploadModalu , custom hook `useUploadModal` a komponentu `UploadModal.tsx`

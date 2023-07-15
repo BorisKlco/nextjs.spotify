@@ -45,15 +45,15 @@ export default function Modal({
           </Dialog.Description>
           <div>{children}</div>
           <Dialog.Close asChild>
-            <NavigationButton
-              icon={IoMdClose}
-              classButton="
-                absolute top-[10px] right-[10px] w-[25px] h-[25px] 
+            <button
+              className="absolute top-[10px] right-[10px] w-[25px] h-[25px] 
                 inline-flex items-center justify-center
                 rounded-full text-neutral-400
-                hover:text-white focus:outline-none
-                "
-            />
+                hover:text-white focus:outline-none"
+              aria-label="Close"
+            >
+              <IoMdClose />
+            </button>
           </Dialog.Close>
         </Dialog.Content>
       </Dialog.Portal>
