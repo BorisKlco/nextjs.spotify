@@ -74,3 +74,7 @@
 - Dokoncenie `authModal.onOpen` aby sa otvaral Modal.
 
 - Login/Logout logic je spravena cez `SupabaseClient`, 
+
+---
+
+- Notifikacie pre uzivatela su spravene cez `Toast` komponent `react-hot-toast`, je  to selfclosed tag, vytvoril som Provider ktory je ako top element v `body`. Nasledne ho mozel callnut cez `toast.`

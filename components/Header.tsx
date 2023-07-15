@@ -9,6 +9,7 @@ import { BiSearchAlt, BiUser } from "react-icons/bi";
 import useAuthModal from "@/app/(hooks)/useAuthModal";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
 import { useUser } from "@/app/(hooks)/useUser";
+import toast from "react-hot-toast";
 
 type HeaderProps = {
   children: React.ReactNode;
@@ -27,7 +28,12 @@ const Header = ({ children, className }: HeaderProps) => {
     router.refresh();
 
     if (error) {
+      toast.error(error.message);
       console.error("Error Header.tsx --> handleLogout", error);
+    } else {
+      toast("Logged Out!", {
+        icon: "👏",
+      });
     }
   }
 
