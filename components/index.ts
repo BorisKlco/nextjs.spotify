@@ -6,8 +6,11 @@ import Library from "./Library";
 import ListItem from "./ListItem";
 import Modal from "./Modal";
 import NavigationButton from "./NavigationButton";
+import PageContent from "./PageContent";
+import PlayButton from "./PlayButton";
 import Sidebar from "./Sidebar";
 import SidebarItem from "./SidebarItem";
+import SongItem from "./SongItem";
 import UploadModal from "./UploadModal";
 
 export {
@@ -22,4 +25,7 @@ export {
   AuthModal,
   UploadModal,
   Input,
+  PageContent,
+  SongItem,
+  PlayButton,
 };
