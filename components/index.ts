@@ -1,6 +1,7 @@
 import AuthModal from "./AuthModal";
 import Box from "./Box";
 import Header from "./Header";
+import Input from "./Input";
 import Library from "./Library";
 import ListItem from "./ListItem";
 import Modal from "./Modal";
@@ -20,4 +21,5 @@ export {
   Modal,
   AuthModal,
   UploadModal,
+  Input,
 };

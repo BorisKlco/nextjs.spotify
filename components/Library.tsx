@@ -16,7 +16,6 @@ const Library = () => {
     }
 
     return uploadModal.onOpen();
-    console.log("Clicking master!");
   };
   return (
     <div className="flex flex-col">

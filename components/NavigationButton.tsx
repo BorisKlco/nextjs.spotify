@@ -7,7 +7,7 @@ type NavigationButtonProps = {
   classIcon?: string;
   classButton?: string;
   optionalText?: string;
-  handleClick?: () => void | undefined;
+  handleClick?: () => void;
 };
 
 const NavigationButton = ({
@@ -16,7 +16,7 @@ const NavigationButton = ({
   classIcon = "",
   classButton = "",
   optionalText = "",
-  handleClick = undefined,
+  handleClick,
 }: NavigationButtonProps) => {
   return (
     <>

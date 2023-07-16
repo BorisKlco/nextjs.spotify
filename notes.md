@@ -83,3 +83,5 @@
 
 - Vytvorenie podmienky v `Library.tsx` po `handleClick` na `AiOutlinePlus` cez AuthProvider, ak neni user prihlaseny, otvori sa AuthMadol
 - Vytvorenie UploadModalu , custom hook `useUploadModal` a komponentu `UploadModal.tsx`
+- Tvorba `Input` komponentu, pouzivanie `forwardRef` a ani po troch videach absolutne netusim co to je... 
+- `handleSubmit` fukncia ktora kontroluje ci img a song existuju a nasledne ich uploaduje na supabase.
